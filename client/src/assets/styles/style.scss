@@ -1,0 +1,16 @@
+body, input, select, button, textarea {
+    color: $color-text-primary;
+    font-size: px2rem($font-size-base);
+    font-weight: $font-weight-primary;
+    line-height: $font-line-height-primary;
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#app {
+
+}

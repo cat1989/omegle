@@ -1,0 +1,6 @@
+@use 'sass:math';
+@function px2rem($px) {
+    $fontSize: 37.5;
+    @return math.div($px, $fontSize) + rem;
+}
+@import './theme/index.scss';

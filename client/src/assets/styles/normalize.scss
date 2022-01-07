@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    font-size-adjust: none;
+    text-size-adjust: none;
+    appearance: none;
+}
+a {
+    text-decoration: none;
+}
+input[type=text], input[type=password], input[type=tel], input[type=email], textarea {
+    user-select: text;
+}
